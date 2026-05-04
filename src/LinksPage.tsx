@@ -80,7 +80,7 @@ export default function LinksPage() {
         </h1>
 
         {/* Card */}
-        <div className="w-full rounded-2xl bg-white/10 backdrop-blur-xl border border-white/10 shadow-2xl p-6 flex flex-col gap-5">
+        <div className="w-full rounded-2xl bg-black/90 backdrop-blur-xl border border-white/10 shadow-2xl p-6 flex flex-col gap-5">
           {links.map((link, index) => (
             <a
               key={link.title}
